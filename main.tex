@@ -1,0 +1,259 @@
+%----------------------------------------------------------------------------------------
+% Dr. Ke Li's CV LaTex Template (version 1.0)
+%
+% This template has been downloaded and developed from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Ke} % Your first name
+\familyname{Li} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Natural Computation Group\\ School of Computer Science\\ University of Birmingham\\}{Edgbaston, Birmingham, B15 2TT, UK}
+\mobile{+(44) 790-790-8206}
+\email{keli.genius@gmail.com}
+\homepage{http://www.cs.bham.ac.uk/~likw/}{http://www.cs.bham.ac.uk/~\textasciitilde likw/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/KeLi.eps} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%\quote{\footnotesize Last updated: \today}
+
+% Colors
+\usepackage{xcolor}	 % Required for custom colors
+% Define a few colors for making text stand out within the presentation
+\definecolor{mygreen}{RGB}{44,85,17}
+\definecolor{DarkGreen}{RGB}{0.000000,0.392157,0.000000}
+\definecolor{myblue}{RGB}{34,31,217}
+\definecolor{mybrown}{RGB}{194,164,113}
+\definecolor{myred}{RGB}{255,66,56}
+% Use these colors within the presentation by enclosing text in the commands below
+\newcommand*{\mygreen}[1]{\textcolor{mygreen}{#1}}
+\newcommand*{\mydgreen}[1]{\textcolor{DarkGreen}{#1}}
+\newcommand*{\myblue}[1]{\textcolor{myblue}{#1}}
+\newcommand*{\mybrown}[1]{\textcolor{mybrown}{#1}}
+\newcommand*{\myred}[1]{\textcolor{myred}{#1}}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTEREST SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+\cvitem{theme:}{Computational intelligence}
+\cvitem{}{Large-scale optimization}
+\cvitem{}{Search-based software engineering}
+\cvitem{}{Data-driven optimization and surrogate modeling}
+\cvitem{auxiliary:}{Statistical machine learning and data mining}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2010 -- 2014}{Doctor of Philosophy}{Department of Computer Science}{City University of Hong Kong}{}{}% Arguments not required can be left empty
+\cventry{2007 -- 2010}{Masters of Engineering}{College of Information and Engineering}{Xiangtan University}{}{}
+\cventry{2003 -- 2007}{Bachelor of Engineering}{College of Information and Engineering}{Xiangtan University}{}{}
+
+%----------------------------------------------------------------------------------------
+%	Work SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Working Experiences}
+\cventry{2015 -- now}{Research Fellow}{School of Computer Science}{University of Birmingham}{}{}
+\cventry{2014 -- 2015}{Postdoctoral Research Associate}{Department of Electrical and Computer Engineering}{Michigan State University}{}{}
+\cventry{2013 -- 2014}{Research Associate}{Department of Computer Science}{City University of Hong Kong}{}{}
+\cventry{2013 -- 2014}{Visiting Scholar}{Department of Electrical and Computer Engineering}{Michigan State University}{}{}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\subsection{Refereed Journal Articles}
+\cvitem{NEUCOM}{Haoran Xie, Xiaodong Li, Tao Wang, Li Chen, \textbf{Ke Li}, Fu Lee Wang, Yi Cai, Qing Li, Huaqing Min, Personalized Search for Social Media via Dominating Verbal Context. Neurocomputing, 172: 27--37, 2016. (SCI IF=2.083)}
+\cvitem{IEEE TEVC}{\textbf{Ke Li}, Kalyanmoy Deb, Qingfu Zhang, Sam Kwong, An Evolutionary Many-Objective Optimization Algorithm Based on Dominance and Decomposition. IEEE Transaction on Evolutionary Computation, 19(5): 694--716, 2015. (SCI IF=3.654) (\myred{\textbf{Top 10 popular article in IEEE TEVC}})}
+\cvitem{IEEE TCYB}{\textbf{Ke Li}, Sam Kwong, Qingfu Zhang, Kalyanmoy Deb, Interrelationship-based Selection for Decomposition Multiobjective Optimization. IEEE Transactions on Cybernetics, 45(10): 2076--2088, 2015. (SCI IF=3.469) (\myred{\textbf{Top 10 popular article in IEEE TCYB}})}
+\cvitem{INS}{\textbf{Ke Li}, Sam Kwong, Kalyanmoy Deb, A Dual Population Paradigm for Evolutionary Multiobjective Optimization. Information Sciences, 309: 50--72, 2015. (SCI IF=4.038)}
+\cvitem{IEEE TEVC}{\textbf{Ke Li}, Qingfu Zhang, Sam Kwong, Miqing Li, Ran Wang, Stable Matching Based Selection in Evolutionary Multiobjective Optimization. IEEE Transactions on Evolutionary Computation, 18(6): 909-923, 2014. (SCI IF=3.654) (\myred{\textbf{Top 10 popular article in IEEE TEVC}})}
+\cvitem{NEUCOM}{Jingjing Cao, Sam Kwong, Ran Wang, Xiaodong Li, \textbf{Ke Li}, Xiangfei Kong, Class-Specific Soft Voting based Multiple Extreme Learning Machines Ensemble. Neurocomputing, 149: 275-284, 2015. (SCI IF=2.083)}
+\cvitem{NEUCOM}{\textbf{Ke Li}, Sam Kwong, A General Framework for Evolutionary Multiobjective Optimization via Manifold Learning. Neurocomputing, 146: 65-74, 2014. (SCI IF=2.083)}
+\cvitem{IEEE TCYB}{Miqing Li, Shengxiang Yang, \textbf{Ke Li}, Xiaohui Liu. Evolutionary algorithms with segment-based search for multiobjective optimization problems. IEEE Transactions on Cybernetics, 44(8): 1295-1313, 2014. (SCI IF=3.469)}
+\cvitem{IEEE TEVC}{\textbf{Ke Li}, \'Alvaro Fialho, Sam Kwong, Qingfu Zhang. Adaptive Operator Selection with Bandits for Multiobjective Evolutionary Algorithm Based on Decomposition. IEEE Transactions on Evolutionary Computation, 18(1): 114-130, 2014. (SCI IF=3.654) (\myred{\textbf{Top 10 popular article in IEEE TEVC}})}
+\cvitem{IJFUKS}{\textbf{Ke Li}, Ran Wang, Sam Kwong, Jingjing Cao. Evolving Extreme Learning Machine Paradigm with Adaptive Operator Selection and Parameter Control. International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 21(supp02): 143-154, 2013. (SCI IF=0.619)}
+\cvitem{INS}{\textbf{Ke Li}, Sam Kwong, Ran Wang, Kit-Sang Tang, Kim-Fung Man. Learning Paradigm Based on Jumping Genes: A General Framework for Enhancing Exploration in Evolutionary Multiobjective Optimization. Information Sciences, 226(1): 1-22, 2013. (SCI IF=4.038)}
+\cvitem{INS}{\textbf{Ke Li}, Sam Kwong, Jingjing Cao, Miqing Li, Jinhua Zheng, Ruimin Shen. Achieving Balance Between Proximity and Diversity in Multi-objective Evolutionary Algorithm. Information Sciences, 182(1): 220-242, 2012. (SCI IF=4.038)}
+\cvitem{ICIC EL}{\textbf{Ke Li}, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv. A Novel Slicing Based Algorithm to Calculate Hypervolume for Multi-Objective Optimization Problems. ICIC Express Letters: An International Journal of Research and Surveys, 4(4): 1113-1120, 2010.}
+
+\subsection{Conference Proceedings}
+\cvitem{SMC 2015}{M. Wu, S. Kwong, Q. Zhang, K. Li, R. Wang, B. Liu, Two-Level Stable Matching-Based Selection in MOEA/D, In "SMC'15: Proc. of 2015 IEEE Conference on Systems, Mans and Cybernetics", accepted for publication, 2015}
+\cvitem{CEC 2015}{\textbf{Ke Li}, Kalyanmoy Deb, Qingfu Zhang. Evolutionary Multiobjective Optimization with Hybrid Selection Principles. In "CEC'15: Proc. of 2015 IEEE Congress on Evolutionary Computation", IEEE Press: p. 900-907, May 2015.}
+\cvitem{SMC 2012}{\textbf{Ke Li}, Sam Kwong, Ran Wang, Jingjing Cao, Imre J. Rudas. Multi-Objective Differential Evolution with Self-Navigation. In "SMC'12: Proc. of 2012 IEEE International Conference on Systems, Mans and Cybernetics", IEEE Press: p. 508-513. October 2012.}
+\cvitem{ICMLC 2012}{Jingjing Cao, Sam Kwong, Ran Wang, \textbf{Ke Li}. A weighted voting method using minimum square error based on Extreme Learning Machine. In "ICMLC'12: Proc. of 2012 IEEE International Conference on machine learning and cybernetics", IEEE Press: p. 411-414. July 2012.}
+\cvitem{SMC 2011}{Jingjing Cao, Hanli Wang, Sam Kwong, \textbf{Ke Li}. Combining interpretable fuzzy rule-based classifiers via multi-objective hierarchical evolutionary algorithm. In "SMC'11: Proc. of 2011 IEEE International Conference on Systems, Mans and Cybernetics", IEEE Press: p. 1771-1776. October 2011.}
+\cvitem{GECCO 2011}{\textbf{Ke Li}, Sam Kwong, Kim-Fung Man. JGBL paradigm: A Novel Strategy to Enhance the Exploration Ability of NSGA-II. In "GECCO'11: Proc. of the 12th Annual Conference on Genetic and Evolutionary Computation", ACM Press: p. 99-100. July 2011.}
+\cvitem{LION 2011}{\textbf{Ke Li}, \'Alvaro Fialho, Sam Kwong. Multi-Objective Differential Evolution with Adaptive Control of Parameters and Operators. In "LION'11: Proc. of the 5th International Conference on Learning and Intelligent OptimizatioN", Springer Verlag, LNCS, p. 473-487, January 2011.}
+\cvitem{PPSN 2010}{Miqing Li, Jinhua Zheng, \textbf{Ke Li}, Qizhao Yuan, Ruimin Shen. Enhancing Diversity for Average Ranking Method in Evolutionary Many-Objective Optimization. In "PPSN'10: Proc. of the 11th International Conference on Parallel Problem Solving from Nature", Springer, LNCS, Vol. 6238: p. 647-656. September 2010.}
+\cvitem{GECCO 2010}{Miqing Li, Jinhua Zheng, Ruimin Zhen, \textbf{Ke Li}, Qizhao Yuan. A Grid-based Fitness Strategy for Evolutionary Many-Objective Optimization. In "GECCO'10: Proc. of the 11th Annual Conference on Genetic and Evolutionary Computation", ACM Press: p. 463-470. July 2010. (\myred{\textbf{Nominated as best paper candidate}})}
+\cvitem{SMC 2009}{\textbf{Ke Li}, Jinhua Zheng, Miqing Li, Cong Zhou, Hui Lv. A Novel Algorithm for Non-dominated Hypervolume-based Multiobjective Optimization. In "SMC'09: Proc. of 2009 IEEE International Conference on Systems, Mans and Cybernetics", IEEE Press: p. 5220-5226. December 2009.}
+\cvitem{SMC 2009}{Miqing Li, Jinhua Zheng, \textbf{Ke Li}, Jun Wu, Guixia Xiao. An Spanning Tree Based Method For Pruning Non-Dominated Solutions in Multi-Objective Optimization Problems. In "SMC'09: Proc. of 2009 IEEE International Conference on Systems, Mans and Cybernetics", IEEE Press: p. 4882-4887. December 2009.}
+\cvitem{ICNC 2009}{Cong Zhou, Jinhua Zheng, \textbf{Ke Li}, Hui Lv. Objective Reduction based on the Least Square Method for Large-dimensional Multiobjective Optimization Problem. In "ICNC'09: Proc. of the 5th International Conference on Natural Computation", IEEE Press: p. 350-354. August 2009.}
+\cvitem{ICNC 2009}{Hui Lv, Jinhua Zheng, Jun Wu, Cong Zhou, \textbf{Ke Li}. The Convergence Analysis of Genetic Algorithm based on Space Mating. In "ICNC'09: Proc. of the 5th International Conference on Natural Computation", IEEE Press: p. 557-562. August 2009.}
+\cvitem{CSIE 2009}{\textbf{Ke Li}, Jinhua Zheng. An Improved Multi-objective Evolutionary Algorithm based on Differential Evolution. In "CSIE'09: Proc. of 2009 WRI World Congress on Computer Science and Information Engineering", IEEE Press: p. 825-830. April 2009.}
+
+\subsection{Under Review}
+\cvitem{}{\textbf{K. Li}, K. Deb, Performance Assessment for Preference-Based Evolutionary Multi-objective Optimization Using Reference Points, January, 2016.}
+\cvitem{}{\textbf{K. Li}, K. Deb, Q. Zhang, Q. Zhang, Efficient Non-domination Level Update Approach for Steady-State Evolutionary Multiobjective Optimization, December, 2015.}
+
+\subsection{Working Paper}
+\cvitem{}{\textbf{K. Li}, K. Deb, Q. Zhang, X. Yao, Integration of Preferences in Decomposition-Based Evolutionary Multi-Objective Optimization, 2016.}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH GRANTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Grants}
+\cvitem{2012 -- 2018}{EPSRC (Grant No. EP/J017515/1) \lq\lq DAASE: Dynamic Adaptive Automated Software Engineering\rq\rq, Key Member, GBP 6,834,903}
+\cvitem{2013 -- 2017}{EPSRC (Grant No. EP/K001523/1) \lq\lq Evolutionary Computation for Dynamic Optimisation in Network Environments\rq\rq, Key Member, GBP 512,325}
+\cvitem{2014 -- 2017}{Hong Kong Research Grants Council General Research Funding (Grant No. 11205314) \lq\lq Stable Matching Theory in Multiobjective Evolutionary Algorithm based on Decomposition (MOEA/D)\rq\rq, Co-PI at large, HKD 692,894}
+\cvitem{2015 -- 2018}{National Natural Science Foundation of China (Grant No. 61502408): \lq\lq Research on Key Problems in Dynamic Environment Multi-objective Evolutionary Optimization\rq\rq, Co-PI, RMB 250,000}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+\cvitem{2013}{Research Tuition Scholarship of City University of Hong Kong}
+\cvitem{2013}{College of Science and Engineering Student Research Excellence Awards (First Class)}
+\cvitem{2012}{College of Science and Engineering Student Research Excellence Awards (Second Class)}
+\cvitem{2012}{Research Tuition Scholarship of City University of Hong Kong}
+\cvitem{2010 -- 2013}{Studentship of City University of Hong Kong}
+\cvitem{2010}{Outstanding Master Thesis of Xiangtan University}
+\cvitem{2010}{Outstanding Graduate of Hunan Province}
+\cvitem{2010}{Outstanding Graduate of Xiangtan University}
+\cvitem{2010}{President Scholarship of Xiangtan University}
+\cvitem{2009}{"Lian Xin Yong Yi" Computer Science Scholarship}
+\cvitem{2009}{Three-good Student of Xiangtan University}
+\cvitem{2009}{Prize of Excellent Team in Innovation of Science and Technology}
+\cvitem{2009}{Excellent Member of The Communist Youth League for Graduate Student}
+\cvitem{2007}{Excellent Undergraduate Dissertation of Xiangtan University}
+\cvitem{2007}{Outstanding Graduate of Xiangtan University}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC SUPERVISION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Academic Supervision}
+\cvitem{2015 -- now}{Renzhi Chen (PhD) at the School of Computer Science, University of Birmingham (Co-supervising with Prof. Xin Yao)}
+\cvitem{2015 -- now}{Joseph Billingsley (Undergraduate) at the School of Computer Science, University of Birmingham (Co-supervising with Prof. Xin Yao)}
+\cvitem{2014 -- 2015}{Mengyuan Wu (PhD) at the Department of Computer Science, City University of Hong Kong (Co-supervising with Prof. Sam Kwong)}
+\cvitem{2014 -- 2015}{Zhichao Lu (PhD) at the Department of Electrical and Computer Engineering, Michigan State University (Co-supervising with Prof. Kalyanmoy Deb)}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Experiences}
+\cvitem{2012/2013}{Introduction to Internet and Programming (CS1303), Semester B}
+\cvitem{2012/2013}{Computer Networks and Internets (CS5222), Semester A}
+\cvitem{2011/2012}{Object-Oriented Programming (CS2332), Semester B}
+\cvitem{2011/2012}{Computer Networks and Internets (CS5222), Semester A}
+\cvitem{2010/2011}{Software Engineering (CS5351), Semester B}
+\cvitem{2010/2011}{Software Quality Engineering (CS5348), Semester A}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC ACTIVITY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Services}
+
+\subsection{Memberships}
+\cvitem{2010 -- 2014}{IEEE student member}
+\cvitem{2013 -- now}{ACM professional member}
+
+\subsection{Editorship}
+\cvitem{2016}{Special Issue of Neurocomputing Journal on Recent Advances in Semantic Computing and Personalization}
+
+\subsection{Reviewer of Journals}
+\cvitem{}{IEEE Transactions on Evolutionary Computation}
+\cvitem{}{IEEE Transactions on Cybernetics}
+\cvitem{}{IEEE Transactions on Industrial Electronics}
+\cvitem{}{IEEE Transactions on Knowledge and Data Engineering}
+\cvitem{}{IEEE Transactions on Vehicular Technology}
+\cvitem{}{European Journal of Operational research}
+\cvitem{}{Frontiers of Computer Science}
+\cvitem{}{Information Sciences}
+\cvitem{}{Expert Systems with Applications}
+\cvitem{}{Neurocomputing}
+\cvitem{}{Memetic Computing}
+\cvitem{}{Soft Computing}
+
+\subsection{Reviewer of Conferences}
+\cvitem{}{The 2014 to 2016 IEEE Congress of Evolutionary Computation (CEC'14 and CEC'16)}
+\cvitem{}{The 2014 to 2016 Genetic and Evolutionary Computation Conference (GECCO'14 to GECCO'16)}
+\cvitem{}{The 2013 to 2015 IEEE International Conference on Machine Learning and Cybernetics (ICMLC'13 to ICMLC'15)}
+\cvitem{}{The 4th International Conference on Swarm, Evolutionary and Memetic Computing (SEMCCO' 13)}
+
+\subsection{Program Committee}
+\cvitem{}{The 2014 to 2016 Genetic and Evolutionary Computation Conference (GECCO'14 and GECCO'16)}
+\cvitem{}{The 2013 to 2015 IEEE International Conference on Machine Learning and Cybernetics (ICMLC'13 to ICMLC'15)}
+\cvitem{}{The 2nd International Conference on Soft Computing \& Machine Intelligence (ISCMI'15)}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+\cvitem{Programming:}{Java, MATLAB, C/C++, Python, HTML, CSS}
+%\cvitem{OS:}{Mac OS X, Microsoft Windows, Linux}
+\cvitem{Scientific:}{MATLAB, OriginLab}
+\cvitem{Typography:}{\LaTeX, LibreOffice/OpenOffice, Microsoft Office}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{References}
+\cvitem{}{\textbf{Sam Kwong}\newline Professor and Department Head, IEEE Fellow\newline Department of Computer Science, City University of Hong Kong\newline Phone: (+852) 3442-2907 | E-mail: \href{mailto:cssamk@cityu.edu.hk}{cssamk@cityu.edu.hk}}
+\cvitem{}{\textbf{Kalyanmoy Deb}\newline Koenig Endowed Chair Professor, IEEE Fellow\newline Department of Electrical and Computer Engineering, Michigan State University\newline Phone: (+1) 517-432-2144 | E-mail: \href{mailto:kdeb@egr.msu.edu}{kdeb@egr.msu.edu}}
+\cvitem{}{\textbf{Qingfu Zhang}\newline Professor, IEEE Senior Member\newline Department of Computer Science, City University of Hong Kong\newline Phone: (+852) 3442-8632 | E-mail: \href{mailto:qingfu.zhang@cityu.edu.hk}{qingfu.zhang@cityu.edu.hk}}
+\cvitem{}{\textbf{Xin Yao}\newline Chair Professor, IEEE Fellow\newline School of Computer Science, University of Birmingham\newline Phone: (+44) 121-414-3747 | E-mail: \href{mailto:x.yao@cs.bham.ac.uk}{x.yao@cs.bham.ac.uk}}
+%----------------------------------------------------------------------------------------
+
+\end{document}
